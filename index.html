@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <button onclick="displayStudentInfo()">Who am I?</button>
+        <p id="student-info">Student ID: <span id="student-id"></span>, Name: <span id="student-name"></span></p>
+        <h1>Weather App</h1>
+        <!---------------------- Default weather icon--------------------- -->
+        <img src="img/weatherIcon.png" id="default-weather-icon" alt="Default Weather Icon">
+        <div id="weather-info">
+
+            <!----------------------------- Weather data ------------------------->
+        </div>
+        <p>Enter the name of city to check weather:</p>
+        <input type="text" id="city-input">
+        <button onclick="getWeather()">OK</button>
+    </div>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
